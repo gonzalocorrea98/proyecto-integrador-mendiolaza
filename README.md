@@ -18,7 +18,7 @@ Con esta Api se puede agregar, editarlas, borrar u obtener los datos de las canc
         Ejemplo: http://localhost:3000/courts/62ee94e4196a9b075a9f21f2
 
 ### POST (Agregar una cancha)
-CURL: 
+* CURL: 
     
         curl --location --request POST 'http://localhost:3000/courts/' \
         --header 'Content-Type: application/json' \
@@ -41,7 +41,7 @@ CURL:
         Ejemplo: http://localhost:3000/courts/62ee9986a350bc767dd03e0b
 
 ### PATCH (Editar los datos de un cancha)
-CURL:
+* CURL: 
 
         curl --location --request PATCH 'http://localhost:3000/courts/62ee94e4196a9b075a9f21f2' \
         --header 'Content-Type: application/json' \
@@ -56,3 +56,5 @@ CURL:
             "locationID":"8869",
             "image":"https://images.app.goo.gl/KXHEd2VTxjqxvTWm9"
         }'
+
+  (Con el locationID se obtienen los datos del clima de la ciudad)
