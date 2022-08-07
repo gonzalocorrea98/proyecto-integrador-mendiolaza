@@ -23,16 +23,16 @@ Con esta Api se puede agregar, editarlas, borrar u obtener los datos de las canc
 
     CURL: 
     
-*curl --location --request POST 'http://localhost:3000/courts/' \
-*--header 'Content-Type: application/json' \
-*--data-raw '{
-*    "name":"Canchas de la villa",
-*    "numberOfCourts":"5",
-*    "address": {
-*        "city":"Villa Allende",
-*        "street":"Av. Goicochea",
-*        "number":3002
-*    },
-*    "locationID":"8541",
-*    "image":"https://images.app.goo.gl/XUrrTmrD8iXQjiRy9"
-*}'
+    curl --location --request POST 'http://localhost:3000/courts/' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+        "name":"Canchas de la villa",
+        "numberOfCourts":"5",
+        "address": {
+            "city":"Villa Allende",
+            "street":"Av. Goicochea",
+            "number":3002
+        },
+        "locationID":"8541",
+        "image":"https://images.app.goo.gl/XUrrTmrD8iXQjiRy9"
+    }'
