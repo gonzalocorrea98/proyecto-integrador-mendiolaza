@@ -20,7 +20,9 @@ Con esta Api se puede agregar, editarlas, borrar u obtener los datos de las canc
 ### POST (Agregar)
 
 * Agregar una cancha: http://localhost:3000/courts/
+
     CURL: 
+    
 *curl --location --request POST 'http://localhost:3000/courts/' \
 *--header 'Content-Type: application/json' \
 *--data-raw '{
