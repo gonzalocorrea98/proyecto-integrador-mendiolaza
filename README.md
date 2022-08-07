@@ -8,9 +8,13 @@ Con esta Api se puede agregar, editarlas, borrar u obtener los datos de las canc
 ### GET (Obtener Datos):
 
 * Obtener una ciudad filtrada por nombre: http://localhost:3000/cities/?name=
+
     Ejemplo: http://localhost:3000/cities/?name=mendiolaza
+
 * Obtener todas las canchas: http://localhost:3000/courts/
+
 * Obtener una cancha por Id: http://localhost:3000/courts/:id
+
     Ejemplo: http://localhost:3000/courts/62ee94e4196a9b075a9f21f2
 
 ### POST (Agregar)
